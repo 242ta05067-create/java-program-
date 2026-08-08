@@ -1,0 +1,15 @@
+import java.util.scanner;
+public class PossitiveNegativeZero(){
+  public static void main(string args[]){
+    Scanner sc=new Scanner(System.in);
+  system.out.println("enter a number:");
+  int n=sc.nextInt();
+  if(n>0){
+     system.out.println("the number is possitive");
+   }else if(n<0){
+     system.out.println("the number is negative");
+   }else{
+     system.out.println("zero");
+  }
+  }
+}
